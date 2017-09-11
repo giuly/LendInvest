@@ -26,7 +26,7 @@ class Tranche {
   }
 
   /**
-   * Add $amount to tranche
+   * Add $amount on tranche
    * @param - (amount) int
    * @param - (date) string
    * @return - void
@@ -37,7 +37,7 @@ class Tranche {
     } else if(!$this->checkMaxAmount($amount)) { // check if the invested sum doesn't exceed the max amount
       throw new Exception("Maximum amount reached");
     }
-    $this->maxAmount -= $amount;
+    $this->maxAmount -= $amount; 
   }
 
   /**
