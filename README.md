@@ -22,7 +22,7 @@ available amount was not reached and I have enough money in my virtual wallet.
 git clone https://github.com/giuly/LendInvest.git
 cd LendInvest
 ```
-Install php composer [install](https://getcomposer.org/download/)
+Install php composer [here](https://getcomposer.org/download/)
 ```shell
 php composer.phar install
 ```
