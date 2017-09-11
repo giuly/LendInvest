@@ -6,13 +6,24 @@ Mortgages simplified. We connect people who want to invest their money, with inv
 those who want to borrow
 
 ## Install
+ 
+```shell
+git clone https://github.com/giuly/LendInvest.git
+```
 
-1. git clone https://github.com/giuly/LendInvest.git
+```shell
+cd LendInvest
+```
 
-2. Install php composer [install](https://getcomposer.org/download/)
+Install php composer [install](https://getcomposer.org/download/)
 
-3. php composer.phar install
+```shell
+php composer.phar install
+```
 
 ## Test
 
-Test: ./vendor/bin/phpunit tests --bootstrap vendor/autoload.php
+```shell
+./vendor/bin/phpunit tests --bootstrap vendor/autoload.php
+```
+
