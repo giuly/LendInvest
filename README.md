@@ -31,6 +31,7 @@ php composer.phar install
 
 PHPUnit Framework
 ```shell
+cd LendInvest
 ./vendor/bin/phpunit tests --bootstrap vendor/autoload.php
 ```
 
